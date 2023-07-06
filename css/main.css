@@ -1,9 +1,8 @@
 body {
     margin: 0%;
-    background-color: silver;
-
+    background-color: rgb(99, 100, 101);
 }
 
-b {
-    color: blue  ;
+nav {
+    color: rgb(0, 0, 0);
 }
