@@ -1,7 +1,12 @@
 body {
-    margin: 0%;
-    background-color: rgb(99, 100, 101);
-}
+    background-image: url('https://s1.1zoom.me/b5050/774/Ireland_Donegal_Bay_Crag_Moss_Clouds_549813_1920x1080.jpg');
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-position-y: top;
+    background-size: cover;
+    height: 100vh;
+}   
 
 nav {
     color: rgb(0, 0, 0);
