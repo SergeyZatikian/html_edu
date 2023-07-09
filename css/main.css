@@ -5,9 +5,30 @@ body {
     background-position: center ;
     background-position-y: top;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
 }   
 
-nav {
+#LogoImg {
+    height: 100%;
+}
+
+.menu {
+    position: absolute;
+    list-style-type: none;
+    background-color: yellow;
     color: rgb(0, 0, 0);
+    margin-left: 0%;
+    padding-left: 0%;
+    width: 200px;
+    right: 0;
+    top: 0;
+    
+
+}
+.menu a{
+    display: inline;
+    font-size: 14px;
+    text-transform: uppercase;
 }
