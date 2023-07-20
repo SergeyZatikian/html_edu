@@ -3,12 +3,12 @@ body {
 }   
 
 #atelier {
+    position: absolute;
     width: 200px;
     display: block;
     margin: 20;
 }
 
 .menu {
-    display: block;
-    margin: 50;
+    position: relative;
 }
