@@ -1,14 +1,179 @@
-body {
-    background-color: bisque;
-}   
-
-#atelier {
-    position: absolute;
-    width: 200px;
-    display: block;
-    margin: 20;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.menu {
-    position: relative;
+@font-face {
+    font-family: "PD - Bold";
+    src: url("/fonts/PlayfairDisplay-Bold.ttf");
+}
+
+.main_site {
+    height: 800px;
+    background-image: url('/img/imgBackground.jpg');
+    background-position: top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_site .menu{
+    width: 305px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between
+}
+
+.main_site .menu .menu_item{
+    margin-top: 47px;
+    font-family: 'Montserrat', sans-serif;
+    width: 400;
+    color: #fff;
+    font-size: 15px;
+                                                
+}
+
+.main_site .logo_img{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.main_site .lines{
+    position: absolute;
+    margin-top: 46px;
+    margin-right: 120px;
+    right: 0;
+}
+
+.main_site .box_text{
+    width: 830px;
+    height: 190px;
+    margin-left: 120px;
+    margin-top: 105px;
+}
+
+.main_site h1{
+    color: #fff;
+    font-family: "PD - Bold";
+    font-size: 60px;
+}
+
+.main_site .subtitle{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    width: 433px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.main_site .play_box{
+    margin-top: 70px;
+}
+
+.main_site .yellow_btn{
+    display: inline-block;
+    vertical-align: top;
+    width: 335px;
+    height: 75px;
+    background-color: #DD9428;
+    color: #331111;
+    border-radius: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: 0;
+    margin-left: 120px;
+}
+
+.main_site .play_img{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 60px;
+}
+
+.main_site .play_text{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    color: #A1A8B6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    width: 104px;
+    line-height: 26px;
+}
+
+.social{
+    width: 209px;
+    height: 55px;
+    margin-left: 120px;
+    margin-top: 121px;
+}
+
+.social .social_items{
+    height: 12px;
+}
+
+.social .social_icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.social .social_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;   
+}
+    
+.new_tours .tours_box{
+    width: 285px;
+    height: 200px;
+}
+
+.new_tours{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    margin-right: 126px;
+    width: 915px;
+    margin-top: -210px;
+}
+
+.new_tours .tours_box_2{
+    background-image: url('/img/imgIsland.png');
+    background-position: top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.new_tours .tours_box_3{
+    background-image: url('/img/imgMagic.png');
+    background-position: top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.new_tours .tours_box_4{
+    background-image: url('/img/Norway.png');
+    background-position: top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.new_tours .arrow_img{
+    margin-right: 25px;
+    margin-bottom: 31px;
 }
